@@ -66,3 +66,16 @@ p {
     text-transform: lowercase;
     margin-bottom: 5px;
 }
+
+body {
+    display: flex;
+}
+/*Desktop*/
+
+@media (min-width: 375px) {
+
+    .container {
+        width: 100%;
+}
+}
+
