@@ -76,6 +76,21 @@ body {
 
     .container {
         width: 100%;
-}
+    }
 }
 
+@media (min-width: 375px) {
+    .card {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 900px;
+        height: 450px;
+
+    }
+}
+
+@media (min-width: 375px) {
+    img {
+        height: 400px
+    }
+}
